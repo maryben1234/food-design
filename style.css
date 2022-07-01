@@ -1,0 +1,344 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}
+
+.hero {
+    min-height: 95vh;
+    width: 100%;
+    background-image: url(./bootstrap-5.2.0/css/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: fill;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+.navlogo p {
+    font-size: 2rem;
+    font-family: cursive;
+    margin: 0 !important;
+}
+
+.navlink a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    margin: 0;
+    margin-right: 1rem;
+}
+
+.navlink {
+    margin-left: 8rem;
+}
+
+.text {
+    padding-top: 10rem;
+}
+
+.button1 {
+    background-color: rgb(251, 109, 58);
+    padding: 0.8rem 2.5rem;
+    border-radius: 0;
+    border: none;
+    font-weight: 600;
+    box-shadow: 2px 2px 12px 5px rgb(251 109 58 / 56%);
+}
+
+.button1:hover {
+    background-color: blue;
+}
+
+.button2 {
+    border: none;
+}
+
+.button3 {
+    background-color: rgb(251, 109, 58);
+    border: none;
+    border-radius: 50%;
+    width: 53px;
+    height: 53px;
+    padding: 600;
+    box-shadow: 2px 2px 12px 5px rgb(251 109 58 / 56%);
+}
+
+.button3:hover {
+    background-color: blue;
+}
+
+.section1 {
+
+    background-image: url(./bootstrap-5.2.0/css/img5.jpeg);
+    background-size: fill;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.541);
+}
+
+.section1 .bootstrap-image {
+    width: 400px;
+    height: 400px;
+    /* margin-left: 3rem; */
+}
+
+@media (max-width:768px) {
+    .section1 .bootstrap-image {
+        width: 70%;
+        margin: auto;
+        height: 400px;
+        /* margin-left: 3rem; */
+    }
+    .button1-container{
+        text-align: center;
+    }
+
+    .myH3 {
+        color: red;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
+
+
+@media (max-width:425px) {
+    .myH3 {
+        color: blue;
+        font-weight: 800;
+    }
+}
+
+.bootstrap-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 40px 0 40px 0;
+    box-shadow: 2px 2px 4px 3px black;
+
+}
+
+.section1 .div1 .div1-text {
+    margin-top: 4rem;
+}
+
+/* all in section 2 */
+.image1 {
+    width: 12rem;
+    height: 10rem;
+    border-radius: 10px;
+    position: relative;
+
+}
+
+.image2 {
+    width: 12rem;
+    height: 10rem;
+    border-radius: 10px;
+    position: relative;
+    bottom: 150px;
+    right: 190px;
+}
+
+.image3 {
+    width: 9rem;
+    height: 6rem;
+    border-radius: 10px;
+    position: relative;
+    right: 150px;
+    bottom: 60px;
+}
+
+.image4 {
+    width: 9rem;
+    height: 6rem;
+    border-radius: 10px;
+    position: relative;
+    bottom: 90px;
+    left: 8px;
+}
+
+.grid-image {
+    padding-top: 70px;
+
+}
+
+.subsection {
+    /* width: 85rem; */
+    height: fit-content;
+    color: white;
+    border-radius: 10px;
+    background-image: url(./image/ima118.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    padding: 0 !important;
+    background-color: #4b4949;
+    background-blend-mode: overlay;
+}
+
+.row2{
+    width: fit-content;
+    /* margin: auto; */
+    margin-left: 17rem;
+}
+.subplorem {
+    font-size: 10px;
+}
+
+.sub-image1 {
+    /* width: 15rem;
+    height: 130px;
+    margin-left: 55px; */
+
+}
+
+.lorem3 {
+    font-size: 10px;
+}
+
+.sub-image2 {
+    /* width: 15rem;
+    height: 130px;
+    margin-left: 55px; */
+}
+
+.sub-image3 {
+    /* width: 15rem;
+    height: 130px;
+    margin-left: 55px; */
+}
+
+.sub-image4 {
+    /* width: 15rem;
+    height: 130px;
+    margin-left: 20px; */
+}
+
+.sub-image5 {
+    /* width: 15rem;
+    height: 130px;
+    margin-left: 50px; */
+}
+
+.sub-image6 {
+    /* width: 15rem;
+    height: 130px;
+    margin-left: 58px; */
+}
+
+.our {
+    padding: 100px;
+
+}
+
+.explore {
+    margin-top: 10rem;
+}
+
+/* .images1{
+    width: 300px;
+    object-fit: fill;
+    /* height: 300px; */
+/* margin-left: 58px; 
+}*/
+
+.images2 {
+    width: 300px;
+    object-fit: fill;
+    /* height: 300px; */
+    /* margin-left: 58px; */
+    background-blend-mode: overlay;
+}
+
+.images3 {
+    width: 300px;
+    object-fit: fill;
+    /* height: 300px; */
+    /* margin-left: 58px; */
+}
+
+.images4 {
+    width: 300px;
+    object-fit: fill;
+    /* height: 300px; */
+    /* margin-left: 58px;  */
+}
+
+*/ .want {
+    height: 3rem;
+    width: 15rem;
+    border: 1px solid silver;
+}
+
+.mary {
+    width: 15rem;
+    height: 4rem;
+    font-size: 15px;
+}
+
+/* .image{
+    height: 200px
+} */
+
+
+
+
+@media (max-width:600px)  {
+    .row2{
+        width: fit-content;
+        margin: auto;
+    }
+
+    .image1 {
+        width: 12rem;
+        height: 10rem;
+        border-radius: 10px;
+        position: static;
+    
+    }
+    
+    .image2 {
+        width: 12rem;
+        height: 10rem;
+        border-radius: 10px;
+        position: static;
+        bottom: 150px;
+        right: 190px;
+    }
+    
+    .image3 {
+        width: 9rem;
+        height: 6rem;
+        border-radius: 10px;
+        
+        position: static;
+        right: 150px;
+        bottom: 60px;
+    }
+    .image-div2 > div{
+        width: fit-content;
+        margin: auto;
+    }
+    
+    .image4 {
+        width: 9rem;
+        height: 6rem;
+        border-radius: 10px;
+        margin-left: auto;
+        position: static;
+        bottom: 90px;
+        left: 8px;
+    }
+    
+}
